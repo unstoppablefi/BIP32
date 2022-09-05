@@ -21,7 +21,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/attaswift/BigInt.git",
-            .upToNextMajor(from: "5.3.0")
+            .upToNextMajor(from: "5.0.0")
         ),
         .package(
             url: "https://github.com/anquii/CryptoSwiftWrapper.git",
@@ -34,7 +34,7 @@ let package = Package(
         .package(
             name: "secp256k1",
             url: "https://github.com/GigaBitcoin/secp256k1.swift.git",
-            .exact("0.5.0")
+           .exact("0.8.1")
         )
     ],
     targets: [
